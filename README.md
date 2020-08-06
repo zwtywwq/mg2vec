@@ -30,13 +30,13 @@ python ./mg2vec.py
 
 Our model achieves the following performance on :
 
-### relationship prediction of mg2vec on LinkedIn, AS and DBLP
+### Relationship prediction of mg2vec on LinkedIn, AS and DBLP
 
 |      Dataset       |    LinkedIn     |       AS       |      DBLP      |
 | ------------------ |---------------- | -------------- | -------------- |
 |     Accuracy       |     61.24%      |     88.92%     |     89.90%     |
 
-### relationship search of mg2vec on LinkedIn, AS and DBLP
+### Relationship search of mg2vec on LinkedIn, AS and DBLP
 
 |      Dataset       |    LinkedIn     |       AS       |      DBLP      |
 | ------------------ |---------------- | -------------- | -------------- |

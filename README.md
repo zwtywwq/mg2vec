@@ -40,7 +40,7 @@ Our model achieves the following performance on :
 
 |      Dataset       |    LinkedIn     |       AS       |      DBLP      |
 | ------------------ |---------------- | -------------- | -------------- |
-|        MAP         |     57.39%      |     86.22%     |     97.90%     |
+|          MAP         |     57.39%      |     86.22%     |     97.90%     |
 
 ## Citation
 If you find this useful for your research, we would be appreciated if you cite the following paper:

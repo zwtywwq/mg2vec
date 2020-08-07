@@ -23,7 +23,7 @@ pip install -r requirements.txt
 To train the model in the paper, run this command:
 
 ```train
-python ./mg2vec.py
+python mg2vec.py
 ```
 
 ## Results

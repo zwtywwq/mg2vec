@@ -34,7 +34,7 @@ Our model achieves the following performance on :
 
 |      Dataset       |    LinkedIn     |       AS       |      DBLP      |
 | ------------------ |---------------- | -------------- | -------------- |
-|        Acc         |     61.24%      |     88.92%     |     89.90%     |
+|        ACC         |     61.24%      |     88.92%     |     89.90%     |
 
 ### Relationship search of mg2vec on LinkedIn, AS and DBLP
 

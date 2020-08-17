@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ## Repository Structure
 - mg2vec/dataset/:
-    - sample_metagraph_stats: Input file containing metagraph statistics. Here we only include a small sample of the dblp graph, which contains metagraphs up to size 4 only to limit the size of the file. Each row represents a relationship between a metagraph and two nodes. The first two columns are nodes' id, the third column is metagraph's id (starting with m) and the last column is the frequency of the metagraph instances appearing with the two nodes (staring with f).
+    - sample_metagraph_stats: Input file containing metagraph statistics. Here we only include a small sample of the dblp graph, which contains metagraphs up to size 4 only to limit the size of the file. Each row represents a relationship between a metagraph and two nodes. The first two columns are nodes' id, the third column is metagraph's id (starting with m) and the last column is the frequency of the metagraph instances appearing with the two nodes (starting with f).
 - mg2vec/:
     - mg2vec.py: Implementation of mg2vec model. If you want to use other dataset, remember to change the dataset name in line 24 and file name in line 69.
 - mg2vec/raw graph/:

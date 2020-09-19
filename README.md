@@ -12,9 +12,10 @@ pip install -r requirements.txt
 
 ## Repository Structure
 - mg2vec/dataset/:
-    - sample_metagraph_stats: Input file containing metagraph statistics. Here we only include a small sample of the dblp graph, which contains metagraphs up to size 4 only to limit the size of the file. Each row represents a relationship between a metagraph and two nodes. The first two columns are nodes' id, the third column is metagraph's id (starting with m) and the last column is the frequency of the metagraph instances appearing with the two nodes (starting with f).
+    - sample_metagraph_stats: Input file containing metagraph statistics. Here we only include a small sample of the dblp graph, which contains metagraphs up to size 4 only to limit the size of the file. Each row represents a relationship between a metagraph and two nodes. The first two columns are nodes' id, the third column is metagraph's id (starting with m) and the last column is the frequency of the metagraph instances appearing with the two nodes (staring with f).
 - mg2vec/:
     - mg2vec.py: Implementation of mg2vec model. If you want to use other dataset, remember to change the dataset name in line 24 and file name in line 69.
+	- task.py: Example code for the downstream task of relationship classification and corresponding evaluation.
 - mg2vec/raw graph/:
 	- as.lg, dblp.lg and linkedin.lg: Raw graph structure of the dataset. To generate the metagraphs and corresponding instances for each dataset, see http://www.yfang.site/data-and-tools/grami-with-automorphism and http://www.yfang.site/data-and-tools/submatch for detailed information.
 
@@ -23,7 +24,7 @@ pip install -r requirements.txt
 To train the model in the paper, run this command:
 
 ```train
-python mg2vec.py
+python ./mg2vec.py
 ```
 
 ## Results
@@ -34,7 +35,7 @@ Our model achieves the following performance on :
 
 |      Dataset       |    LinkedIn     |       AS       |      DBLP      |
 | ------------------ |---------------- | -------------- | -------------- |
-|        ACC         |     61.24%      |     88.92%     |     89.90%     |
+|     Accuracy       |     61.24%      |     88.92%     |     89.90%     |
 
 ### Relationship search of mg2vec on LinkedIn, AS and DBLP
 

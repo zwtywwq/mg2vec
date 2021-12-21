@@ -16,6 +16,7 @@ pip install -r requirements.txt
 - mg2vec/:
     - mg2vec.py: Implementation of mg2vec model. If you want to use other dataset, remember to change the dataset name in line 24 and file name in line 69.
 	- task.py: Example code for the downstream task of relationship classification and corresponding evaluation.
+	- link_labels.csv: Labeled pairs of three datasets.
 - mg2vec/raw graph/:
 	- as.lg, dblp.lg and linkedin.lg: Raw graph structure of the dataset. To generate the metagraphs and corresponding instances for each dataset, see http://www.yfang.site/data-and-tools/grami-with-automorphism and http://www.yfang.site/data-and-tools/submatch for detailed information.
 
